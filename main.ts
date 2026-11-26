@@ -5,7 +5,7 @@ import * as fs from "node:fs";
 // file holds exactly the line below — identical on every run.
 // No network, no input, no randomness, node:fs only.
 const LINE =
-  "I asked the barista for something to wake me up, so she handed me my bank statement.";
+  "I asked the barista for her strongest wake-up call, so she read out my bank balance.";
 
 fs.mkdirSync("/output", { recursive: true });
 fs.writeFileSync("/output/entry.txt", LINE, "utf8");
